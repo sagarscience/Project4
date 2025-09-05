@@ -183,7 +183,7 @@ if (bookingForm) {
     confirmation.style.color = "#118a2f";
     confirmation.textContent = "Processing your booking…";
 
-    emailjs.send("service_5hv637v", "template_txy98nk", templateParams)
+    emailjs.send("service_5hv637v", "template_kic93vp", templateParams)
       .then(function () {
         confirmation.textContent = "Thank you For Booking the Service. We will get back to you soon!";
         cart = [];
